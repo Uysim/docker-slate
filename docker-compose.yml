@@ -1,0 +1,7 @@
+version: '2'
+services:
+  slate:
+    image: uysimty/slate:2.3.1
+    build: .
+    ports:
+      - 4567:4567
